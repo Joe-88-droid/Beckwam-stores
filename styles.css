@@ -1,0 +1,770 @@
+body{
+	background: #dedddd;
+}
+div#introduction {
+    border: 1px solid green;
+    width: 98%;
+    box-shadow: 0px 0px 20px #777796;
+    /*border-radius: 5px;*/
+    position: absolute;
+    left: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+div#all-content {
+    clear: both;
+    position: absolute;
+    top: 90px;
+    overflow: auto;
+	width: 98%;
+}
+div#side-bar ul li{
+    list-style: none;
+    text-align: center;
+	list-style: none;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 2px;
+	box-shadow: 0px 0px 5px inset blue;
+}
+div#side-bar ul li:hover{
+    list-style: none;
+    text-align: center;
+	list-style: none;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 2px;
+	box-shadow: 0px 0px 4px #4a4444;
+}
+p#name-header {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant-caps: petite-caps;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    width: 900px;
+}
+p#settings {
+    float: right;
+    margin: 0px;
+    margin-top: 8px;
+	margin-right: 10px;
+}
+div#side-bar ul li img {
+    width: 35px;
+    height: 35px;
+}
+div#side-bar ul {
+    margin-left: -40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div#side-bar ul li p {
+    margin-top: 1px;
+}
+div#side-bar {
+    float: left;
+}
+div#worka-space {
+   background: white;
+    width: 1100px;
+    height: 509px;
+    position: absolute;
+    left: 110px;
+    top: 5px;
+    border: 1px solid green;
+    margin-right: 5px;
+}
+div#charge_sheet {
+    width: 100%;
+    height: 100%;
+    margin-top: -16px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+div#observation {
+	border: 1px solid green;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 100px;
+    float: left;
+    text-align: center;
+    height: fit-content;
+    background: #dedddd;
+    box-shadow: 0px 0px 4px inset blue;
+}
+p#identifier {
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid green;
+}
+input#barcodeReader {
+    height: 20px;
+    outline-color: green;
+    outline-style: dashed;
+	margin-top: 10px;
+}
+div#product_definations {
+    margin-top: -5px;
+}
+p#descriptions_header {
+    width: 100%;
+    text-align: inherit;
+	font-family: sans-serif;
+    font-size: 20px;
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;
+	overflow: auto;
+	margin-bottom: 0px;
+}
+span#Product {
+    float: left;
+    width: 24.5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-right: 1px solid green;
+}
+span#description {
+    float: left;
+    width: 24.5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-right: 1px solid green;
+}
+span#Weight_Volume {
+    float: left;
+    width: 24.5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-right: 1px solid green;
+}
+span#price {
+    float: left;
+    width: 24.5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+p#descriptions_response {
+    width: 100%;
+    text-align: inherit;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    overflow: auto;
+	margin-top: 0px;
+}
+span#ProductValue {
+    border-right: 1px solid green;
+    float: left;
+    width: 24.5%;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+span#descriptionValue {
+    border-right: 1px solid green;
+    float: left;
+    width: 24.5%;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+span#Weight/VolumeValue {
+    border-right: 1px solid green;
+    float: left;
+    width: 24.5%;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+span#priceValue {
+    border-right: 1px solid green;
+    float: left;
+    width: 24.5%;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+div#receipt {
+    float: left;
+    width: 48%;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 5px inset;
+    height: 95%;
+	overflow: auto;
+}
+div#products_charge {
+    border: 1px solid green;
+    border-radius: 7px;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+	box-shadow: 0px 0px 10px inset;
+}
+div#products_Purchased {
+    border-bottom: 1px solid green;
+}
+p#receipt_header {
+    margin-bottom: 10px;
+}
+p#charge {
+    box-shadow: 0px 0px 3px inset;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 4px 30px 4px 30px;
+    font-size: larger;
+    font-variant: all-petite-caps;
+	overflow: auto;
+}
+p#charge:hover {
+    box-shadow: 0px 0px 3px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 4px 30px 4px 30px;
+    font-size: larger;
+    font-variant: all-petite-caps;
+    overflow: auto;
+}
+div#view_change {
+    background: white;
+    box-shadow: 0px 0px 10px inset;
+    border-radius: 5px;
+    overflow: auto;
+    font-size: larger;
+    font-weight: bold;
+}
+p#propects_holder {
+    border-bottom: 1px solid;
+    overflow: auto;
+	margin-bottom: 0px;
+}
+span#denomination {
+    float: left;
+    width: 33%;
+    border-right: 1px solid;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+span#total {
+    float: left;
+    width: 33%;
+    border-right: 1px solid;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+span#change {
+    float: left;
+    width: 33%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+p#prospects_display {
+    overflow: auto;
+	margin-top: 0px;
+}
+span#denomination_value {
+	float: left;
+    width: 33%;
+    border-right: 1px solid black;
+    height: fit-content;
+}
+span#total_value {
+    float: left;
+    width: 33%;
+    border-right: 1px solid black;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+span#change_value {
+    float: left;
+    width: 33%;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p#product_headers {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+	overflow: auto;
+}
+span#item {
+    float: left;
+    width: 25%;
+}
+span#qty {
+    float: left;
+    width: 25%;
+}
+span#each {
+    float: left;
+    width: 25%;
+}
+span#total_r {
+    float: left;
+    width: 25%;
+}
+div#receipt_totals {
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    clear: both;
+    border-top: 3px solid;
+}
+p#items_charge {
+    clear: both;
+}
+input#denomination_value_input {
+    font-size: inherit;
+    width: 173px;
+    height: 38px;
+    margin: 0px;
+}
+div#daily_sales {
+    width: 400px;
+    height: 50px;
+    border: 1px solid green;
+    position: absolute;
+    top: 430px;
+    left: 70px;
+}
+input#opening_register {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    font-weight: bold;
+	display:none;
+}
+span#op {
+    float: left;
+    width: 50%;
+}
+span#cs {
+    float: left;
+    width: 50%;
+}
+p#updateSales {
+    font-family: monospace;
+    color: blue;
+    font-size: 15px;
+}
+span#openingBalance {
+    color: red;
+}
+span#cash_sale {
+    color: red;
+}
+div#fullScreenREquester {
+    width: 102%;
+    height: 105%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+p#seekPermission {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: lightgrey;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px inset;
+}
+span#seekPermissionAllowed {
+    background: black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px inset white;
+}
+span#seekPermissionAllowed:hover {
+    background: black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px white;
+}
+div#products {
+    display: none;
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+    margin-top: 150px;
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+	overflow:auto;
+}
+div#newStockBatchDIV {
+    width: 29%;
+    height: 200px;
+    background: #dedddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    float: left;
+    margin: 10px;
+}
+div#productCodeDIV {
+    width: 29%;
+    height: 200px;
+    background: #dedddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    float: left;
+    margin: 10px;
+}
+div#viewStockDIV {
+    width: 29%;
+    height: 200px;
+    background: #dedddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    float: left;
+    margin: 10px;
+}
+div#newStockBatchDIV:hover {
+    width: 29%;
+    height: 200px;
+    background: #dedddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px inset;
+    float: left;
+    margin: 10px;
+}
+div#productCodeDIV:hover {
+    width: 29%;
+    height: 200px;
+    background: #dedddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px inset;
+    float: left;
+    margin: 10px;
+}
+div#viewStockDIV:hover {
+    width: 29%;
+    height: 200px;
+    background: #dedddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px inset;
+    float: left;
+    margin: 10px;
+}
+p#newStockBatch {
+    margin: auto;
+    margin-top: 80px;
+	color:#151313;
+}
+p#productCode {
+    margin: auto;
+    margin-top: 80px;
+	color: #151313;
+}
+p#viewStock {
+    margin: auto;
+    margin-top: 80px;
+	color:#151313;
+}
+div#newStockBatchInput {
+    display: none;
+}
+div#newStockBatchInput {
+    background: #a7a5a5;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px inset black;
+    width: 350px;
+}
+input#itemCode {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    outline: auto;
+    outline-color: green;
+}
+input#itemName {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    outline: auto;
+    outline-color: green;
+}
+input#expiry {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    outline: auto;
+    outline-color: green;
+}
+input#amount {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    outline: auto;
+    outline-color: green;
+}
+p#add {
+    box-shadow: 0px 0px 3px inset black;
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2px 30px 2px 30px;
+    font-size: larger;
+    font-variant: all-petite-caps;
+	overflow: auto;
+	color: black;
+}
+p#add:hover {
+    box-shadow: 0px 0px 3px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2px 30px 2px 30px;
+    font-size: larger;
+    font-variant: all-petite-caps;
+    overflow: auto;
+}
+p#close {
+    box-shadow: 0px 0px 3px inset black; 
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 2px 30px 2px 30px;
+    font-size: larger;
+    font-variant: all-petite-caps;
+	overflow: auto;
+	color:black;
+}
+p#close:hover {
+    box-shadow: 0px 0px 3px black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 2px 30px 2px 30px;
+    font-size: larger;
+    font-variant: all-petite-caps;
+    overflow: auto;
+}
+div#ViewStockPort {
+    display: none;
+}
+div#ViewStockPort {
+    background: antiquewhite;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+	overflow: auto;
+}
+p#ViewStockPortHeader {
+    background: #dedddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+li#Analysis {
+    opacity: 10;
+}
+li#Create_Codes {
+    opacity: 10;
+}
+li#Generate_order {
+    opacity: 10;
+}
+p#ShowHeaders {
+    color: black;
+    margin-bottom: 0px;
+	overflow: auto;
+    background: #b5b4b4;
+    padding-top: 10px;
+    margin-top: -14px;
+}
+span#ShowHeadersInStock {
+    float: left;
+    width: 25%;
+}
+div#inputNewProductCode {
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+div#styleThisDiv {
+    background: #a7a5a5;
+    padding: 40px;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px inset;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+span.styleThem {
+    color: black;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    float: left;
+    width: 150px;
+}
+.styleInputs {
+    float: left;
+    margin-bottom: 10px;
+    outline-color: green;
+    height: 20px;
+    outline-style: auto;
+}
+p#addingNewItemBarcode {
+    clear: both;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    background: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px inset;
+}
+p#addingNewItemBarcode:hover {
+    clear: both;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    background: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+p#addingNewItemBarcodecloser {
+    clear: both;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    background: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px inset;
+	margin-top: 10px;
+}
+p#addingNewItemBarcodecloser:hover {
+    clear: both;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    background: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+	margin-top: 10px;
+}
+div#showExpiries {
+    display: none;
+}
+p#Caution {
+    background: #dedddd;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: red;
+}
+span#ProductEx {
+    float: left;
+    width: 22%;
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+span#NumberExp{
+    float: left;
+    width: 22%;
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+span#Expiry_date {
+    float: left;
+    width: 22%;
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+p#expeiries_header {
+    overflow: auto;
+    background: darkgrey;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+li#Sales {
+    opacity: 10;
+}
+.eliminate:hover{
+	background: red;
+}
+div#Print_Receipt_ {
+    background-color: white;
+    position: top;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    width: 200px;
+}
+div#ShowProducstForManualCharge {
+	display:none;
+    background: white;
+    position: absolute;
+    top: 270px;
+    min-width: 50px;
+    min-height: 50px;
+    left: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+p#manualEntryProducts:hover {
+    color: white;
+    background-color: grey;
+}
+span#newBatchInputLabels {
+    float: left;
+    width: 150px;
+    color: black;
+    text-align: left;
+}
+#editingProductsDiv {
+	padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#styleThisDivForEditing {
+	background: #a7a5a5;
+    padding: 40px;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px inset;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
